@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+#imagemPai{
+    display: flex;
+   /* flex-direction: row; */
+   flex-direction: column;
+   flex-direction: column-reverse;
+   flex-direction: row-reverse;
+
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/f0/a2/71/f0a27102f90e371f5c092724c8eb2ef6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Jacquard 12";
+}
+
+#bordaPai{
+    border: 1px solid rgb(94, 73, 47);
+    display: flex;
+
+}
+
+h1{
+    border: 1px solid rgb(148, 105, 52);
+
+}
+
+h2{
+    border: 1px solid rgb(148, 105, 52)
+}
+h3{
+    border: 1px solid rgb(148, 105, 52)
+}
+
