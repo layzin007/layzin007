@@ -2,11 +2,7 @@
 
 #imagemPai{
     display: flex;
-   /* flex-direction: row; */
-   flex-direction: column;
-   flex-direction: column-reverse;
-   flex-direction: row-reverse;
-
+   
 }
 body{
     background-image: url(https://i.pinimg.com/originals/f0/a2/71/f0a27102f90e371f5c092724c8eb2ef6.png);
@@ -16,20 +12,33 @@ body{
 }
 
 #bordaPai{
-    border: 1px solid rgb(94, 73, 47);
+    border: 1px solid rgb(146, 116, 78);
     display: flex;
 
 }
 
 h1{
-    border: 1px solid rgb(148, 105, 52);
+    border: 1px solid rgb(19, 98, 104);
 
 }
 
 h2{
-    border: 1px solid rgb(148, 105, 52)
+    border: 1px solid rgb(52, 148, 143)
 }
 h3{
-    border: 1px solid rgb(148, 105, 52)
+    border: 1px solid rgb(52, 145, 148)
 }
 
+img{
+    border: 1px solid rgb(151, 25, 25);
+}
+
+#bordaPai{
+    display: flex;
+    justify-content: space-between;
+  }
+
+#bordaPai{
+    align-items:  stretch;
+    display: flex;
+}

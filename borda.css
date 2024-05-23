@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: crimson;
+}
+diV{
+ display: flex;
+ gap: 30px;
+
+}
+    
